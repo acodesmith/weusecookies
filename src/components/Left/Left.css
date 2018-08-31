@@ -1,0 +1,32 @@
+.left--wrapper {
+    animation: openLeft 1s 1 ease;
+    background: #730c13;
+    color: white;
+    display: block;
+    height: 100%;
+    left: 0;
+    max-width: 40%;
+    overflow: hidden;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+}
+
+.left--wrapper span a {
+    color: inherit;
+}
+
+.left--wrapper button {
+    min-width: 200px;
+    margin: 2rem 0;
+    padding: 0.5rem;
+}
+
+@keyframes openLeft {
+    0% {
+        left:-40%;
+    }
+    100% {
+        left: 0;
+    }
+}

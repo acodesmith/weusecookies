@@ -1,0 +1,32 @@
+.right--wrapper {
+    animation: openRight 1s 1 ease;
+    background: #520f08;
+    color: white;
+    display: block;
+    height: 100%;
+    max-width: 40%;
+    overflow: hidden;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.right--wrapper span a {
+    color: inherit;
+}
+
+.right--wrapper button {
+    min-width: 200px;
+    margin: 2rem 0;
+    padding: 0.5rem;
+}
+
+@keyframes openRight {
+    0% {
+        right: -40%;
+    }
+    100% {
+        right: 0;
+    }
+}

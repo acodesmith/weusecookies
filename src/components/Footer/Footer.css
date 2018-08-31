@@ -1,0 +1,15 @@
+.footer--wrapper {
+    background: #233853;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+}
+
+.footer--wrapper a {
+    color: white;
+}
+
+.footer--wrapper small {
+    color: #6286a3;;
+    display: block;
+}
